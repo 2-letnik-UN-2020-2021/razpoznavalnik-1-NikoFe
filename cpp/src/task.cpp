@@ -7,6 +7,7 @@
 #include "Parser_.h"
 
 int main(int argc, char** argv)
+
 {
 	std::ifstream ifs(argv[1]);
 	std::string input;
@@ -40,13 +41,6 @@ int main(int argc, char** argv)
 		}
 
 		//std::cout<<parse.parse()<<std::endl;
-
-
-
-
-
-
-
 
 
 	}

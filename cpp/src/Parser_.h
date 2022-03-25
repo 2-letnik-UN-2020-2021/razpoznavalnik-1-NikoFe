@@ -93,8 +93,6 @@ public:
 					tokenIndex++;
 
 				}
-				else   throw "Exit!";
-
 			
 			}
 			else if (tokens.at(tokenIndex).getToken() == "float") {
