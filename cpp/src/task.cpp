@@ -6,9 +6,10 @@
 #include "Scanner.h"
 #include "Parser_.h"
 
-int main(int argc, char** argv)
+int main()
 {
-	std::ifstream ifs(argv[1]);
+
+	std::ifstream ifs("test.txt");
 	std::string input;
 	std::vector<Token>tokens;
 
@@ -40,6 +41,14 @@ int main(int argc, char** argv)
 		}
 
 		//std::cout<<parse.parse()<<std::endl;
+
+
+
+
+
+
+
+
 
 	}
 	else { std::cout << "Error was unable to open file!" << std::endl; }

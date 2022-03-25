@@ -110,7 +110,7 @@ public:
 			else if (tokens.at(tokenIndex).getToken() == "variable") {
 				tokenIndex++;
 			}
-			else { throw "Exit!"; }
+		
 			}
 			catch(std::exception e){}
 		}
