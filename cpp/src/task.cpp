@@ -6,10 +6,9 @@
 #include "Scanner.h"
 #include "Parser_.h"
 
-int main()
+int main(int argc, char** argv)
 {
-
-	std::ifstream ifs("test.txt");
+	std::ifstream ifs(argv[1]);
 	std::string input;
 	std::vector<Token>tokens;
 
